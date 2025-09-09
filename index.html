@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">
+            <a href="#home" class="nav-link">
+                <h3>Sample Portfolio</h3>
+            </a>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#stats" class="nav-link">Stats</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+            <li><a href="#message" class="nav-link">Message</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 id="typing-name"></h1>
+                    <h2 id="typing-subtitle"></h2>
+                    <p id="hero-description">"I’m currently a 3rd-year BS Information Technology student with a passion for software engineering. I’m eager to create innovative solutions and constantly learn new technologies to enhance my skills and stay up-to-date in this ever-evolving field.</p>
+                    <button class="cta-button">Go To Projects</button>
+                </div>
+               <div class="hero-image">
+             <div class="profile-img">
+        <div class="profile-inner">
+            <div class="profile-front">
+                <img src="profile.jpg" alt="Profile">
+            </div>
+            <div class="profile-back">
+                <img src="tabs.jpg" alt="Profile Back">
+            </div>
+                </div>
+                     </div>
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            
+            <!-- Skill Filter Tabs -->
+            <div class="skill-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="frontend">Frontend</button>
+                <button class="filter-btn" data-filter="backend">Backend</button>
+                <button class="filter-btn" data-filter="tools">Tools</button>
+            </div>
+
+            <!-- Skills Grid -->
+            <div class="skills-container">
+                <div class="skills-grid">
+                    <!-- Frontend Skills -->
+                    <div class="skill-card" data-category="frontend" data-skill="html5">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="skill-card" data-category="frontend" data-skill="css3">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="skill-card" data-category="frontend" data-skill="vb-net">
+                        <i class="fas fa-code"></i>
+                        <span>VB.NET</span>
+                    </div>
+                    <div class="skill-card" data-category="frontend" data-skill="javascript">
+                        <i class="fab fa-js-square"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-card" data-category="frontend" data-skill="react">
+                        <i class="fab fa-react"></i>
+                        <span>React</span>
+                    </div>
+                    <div class="skill-card" data-category="frontend" data-skill="vue">
+                        <i class="fab fa-vue"></i>
+                        <span>Vue.js</span>
+                    </div>
+                    <div class="skill-card" data-category="frontend" data-skill="bootstrap">
+                        <i class="fab fa-bootstrap"></i>
+                        <span>Bootstrap</span>
+                    </div>
+                    <div class="skill-card" data-category="frontend" data-skill="sass">
+                        <i class="fab fa-sass"></i>
+                        <span>SASS</span>
+                    </div>
+                    <div class="skill-card" data-category="frontend" data-skill="tailwind">
+                        <i class="fas fa-wind"></i>
+                        <span>Tailwind</span>
+                    </div>
+
+                    <!-- Backend Skills -->
+                    <div class="skill-card" data-category="backend" data-skill="nodejs">
+                        <i class="fab fa-node-js"></i>
+                        <span>Node.js</span>
+                    </div>
+                    <div class="skill-card" data-category="backend" data-skill="java">
+                        <i class="fab fa-java"></i>
+                        <span>Java</span>
+                        </div>
+                    <div class="skill-card" data-category="backend" data-skill="csharp">
+                        <i class="fas fa-code"></i>
+                        <span>C#</span>
+                    </div>
+                    <div class="skill-card" data-category="backend" data-skill="php">
+                        <i class="fab fa-php"></i>
+                        <span>PHP</span>
+                    </div>
+                    <div class="skill-card" data-category="backend" data-skill="laravel">
+                        <i class="fab fa-laravel"></i>
+                        <span>Laravel</span>
+                    </div>
+                    <div class="skill-card" data-category="backend" data-skill="mysql">
+                        <i class="fas fa-database"></i>
+                        <span>MySQL</span>
+                    </div>
+                    <div class="skill-card" data-category="backend" data-skill="mongodb">
+                        <i class="fas fa-leaf"></i>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="skill-card" data-category="backend" data-skill="firebase">
+                        <i class="fas fa-fire"></i>
+                        <span>Firebase</span>
+                    </div>
+                    <div class="skill-card" data-category="backend" data-skill="express">
+                        <i class="fas fa-server"></i>
+                        <span>Express.js</span>
+                    </div>
+                    <div class="skill-card" data-category="backend" data-skill="python">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                    </div>
+
+                    <!-- Tools Skills -->
+                    <div class="skill-card" data-category="tools" data-skill="git">
+                        <i class="fab fa-git-alt"></i>
+                        <span>Git</span>
+                    </div>
+                    <div class="skill-card" data-category="tools" data-skill="github">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </div>
+                    <div class="skill-card" data-category="tools" data-skill="figma">
+                        <i class="fab fa-figma"></i>
+                        <span>Figma</span>
+                    </div>
+                    <div class="skill-card" data-category="tools" data-skill="vscode">
+                        <i class="fas fa-code"></i>
+                        <span>VS Code</span>
+                    </div>
+                    <div class="skill-card" data-category="tools" data-skill="npm">
+                        <i class="fab fa-npm"></i>
+                        <span>NPM</span>
+                    </div>
+                    <div class="skill-card" data-category="tools" data-skill="docker">
+                        <i class="fab fa-docker"></i>
+                        <span>Docker</span>
+                    </div>
+                    <div class="skill-card" data-category="tools" data-skill="terminal">
+                        <i class="fas fa-terminal"></i>
+                        <span>Terminal</span>
+                    </div>
+                    <div class="skill-card" data-category="tools" data-skill="adobe">
+                        <i class="fab fa-adobe"></i>
+                        <span>Adobe XD</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brands Section -->
+    <section id="brands" class="brands">
+        <div class="container">
+            <h2 class="section-title"></h2>
+            <p></p>
+            <div class="brand-slider">
+                <div class="brand-track">
+                    <div class="brand-item" data-brand="google">
+                        <i class="fab fa-google"></i>
+                    </div>
+                    <div class="brand-item" data-brand="facebook">
+                        <i class="fab fa-facebook"></i>
+                    </div>
+                    <div class="brand-item" data-brand="youtube">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <div class="brand-item" data-brand="github">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <div class="brand-item" data-brand="microsoft">
+                        <i class="fab fa-microsoft"></i>
+                    </div>
+                    <div class="brand-item" data-brand="apple">
+                        <i class="fab fa-apple"></i>
+                    </div>
+                    <div class="brand-item" data-brand="dribbble">
+                        <i class="fab fa-dribbble"></i>
+                    </div>
+                    <div class="brand-item" data-brand="spotify">
+                        <i class="fab fa-spotify"></i>
+                    </div>
+                    <!-- Duplicate for seamless loop -->
+                    <div class="brand-item" data-brand="google">
+                        <i class="fab fa-google"></i>
+                    </div>
+                    <div class="brand-item" data-brand="facebook">
+                        <i class="fab fa-facebook"></i>
+                    </div>
+                    <div class="brand-item" data-brand="youtube">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <div class="brand-item" data-brand="github">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <div class="brand-item" data-brand="microsoft">
+                        <i class="fab fa-microsoft"></i>
+                    </div>
+                    <div class="brand-item" data-brand="apple">
+                        <i class="fab fa-apple"></i>
+                    </div>
+                    <div class="brand-item" data-brand="dribbble">
+                        <i class="fab fa-dribbble"></i>
+                    </div>
+                    <div class="brand-item" data-brand="spotify">
+                        <i class="fab fa-spotify"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <img src="img1.jpg" alt="E-Commerce Website">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Website</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Sql Server</span>
+                            <span class="tech-tag">Csharp</span>
+                        </div>
+                        <p>A full-stack e-commerce platform with features like shopping cart, online payment, and an admin dashboard.</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <img src="img2.jpg" alt="Restaurant App">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Online Restaurant </h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Csharp</span>
+                        </div> 
+                        <p>An online food ordering application with real-time tracking features and a rating system.</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <img src="img3.jpg" alt="Dashboard Analytics">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Dashboard Analytics</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">D3.js</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Csharp</span>
+                        </div>
+                        <p>An interactive dashboard for business data visualization with various charts and graphs.</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <img src="img4.jpg" alt="Learning Management System">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Learning Management System</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">Laravel</span>
+                            <span class="tech-tag">Bootstrap</span>
+                            <span class="tech-tag">SqL Server</span>
+                            <span class=" tech-tag">Csharp</span>
+                        </div>
+                        <p>An online learning platform with features like video streaming, quizzes, and progress tracking.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics -->
+    <section id="stats" class="stats">
+        <div class="container">
+            <h2 class="section-title">Stats</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3 class="stat-number" data-target="10"></h3>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number" data-target="5"></h3>
+                    <p>Happy Clients</p>
+                </div>
+               <div class="stat-item">
+                     <h3 class="stat-number" data-target="100"></h3>
+                    <p>Cups of Coffee</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number" data-target="0"></h3>
+                    <p>Years Experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            
+            <!-- Contact Filter Tabs -->
+            <div class="contact-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="personal">Personal</button>
+                <button class="filter-btn" data-filter="business">Business</button>
+                <button class="filter-btn" data-filter="social">Social</button>
+            </div>
+
+            <!-- Contact Grid -->
+            <div class="contact-container">
+                <div class="contact-grid">
+                    <!-- Personal Contact -->
+                    <div class="contact-card" data-category="personal" data-contact="email">
+                        <i class="fas fa-envelope"></i>
+                        <span>tabiolojaymark1gmail.com</span>
+                    </div>
+
+                   <div class="contact-card" data-category="personal" data-contact="facebook">
+                     <a href="https://www.facebook.com/tabsjaymark" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-facebook-f"></i>
+                       <span>Jaymark Tabiolo</span>
+                        </a>
+                    </div>
+
+                    <div class="contact-card" data-category="personal" data-contact="phone">
+                        <i class="fas fa-phone"></i>
+                        <span>+639513674220</span>
+                    </div>
+                       <div class="contact-card" data-category="personal" data-contact="location">
+                     <a href="https://www.philatlas.com/visayas/r08/leyte/isabel/matlang.html" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-map-marker-alt"></i>
+                         <span>Matlang Isabel Leyte</span>
+                        </a>
+                    </div>
+
+                    <!-- Business Contact -->
+                    <div class="contact-card" data-category="business" data-contact="work">
+                        <i class="fas fa-briefcase"></i>
+                        <span>tabiolojaymark1gmail</span>
+                    </div>
+                    <div class="contact-card" data-category="business" data-contact="linkedin">
+                        <i class="fab fa-linkedin"></i>
+                        <span>linkedin.com/in/tabiolojaymark**</span>
+                    </div>
+                    <div class="contact-card" data-category="business" data-contact="cv">
+                        <i class="fas fa-file-alt"></i>
+                        <span>Download CV</span>
+                    </div>
+                    <div class="contact-card" data-category="business" data-contact="meeting">
+                        <i class="fas fa-calendar"></i>
+                        <span>Schedule Meeting</span>
+                    </div>
+                    <div class="contact-card" data-category="business" data-contact="collaborate">
+                        <i class="fas fa-handshake"></i>
+                        <span>Collaborate</span>
+                    </div>
+
+                    <!-- Social Media -->
+                    <div class="contact-card" data-category="social" data-contact="github">
+                        <i class="fab fa-github"></i>
+                        <span>github.com/jaymarktabs.tabiolo***</span>
+                    </div>
+                    <div class="contact-card" data-category="social" data-contact="instagram">
+                        <i class="fab fa-instagram"></i>
+                        <span>@tabs***</span>
+                    </div>
+                    <div class="contact-card" data-category="social" data-contact="discord">
+                        <i class="fab fa-discord"></i>
+                        <span>jaymarktabs**</span>
+                    </div>
+                    <div class="contact-card" data-category="social" data-contact="telegram">
+                        <i class="fab fa-telegram"></i>
+                        <span>@tabiolo***</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Message Section -->
+    <section id="message" class="message">
+        <div class="container">
+            <div class="contact-form-section">
+                <h2 class="section-title">Send Message</h2>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Tabiolo Jaymark. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
